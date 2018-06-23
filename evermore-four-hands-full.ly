@@ -1,25 +1,26 @@
 \version "2.14.1"
 
 introPianoOneRight = \relative c'' {
-  e16 e, a e d' e, a e e' e, a e f' f, a f                                   |
-  d'1                                                                        |
-  d16 d, g d c' d, g d d' d, g d e' e, g e                                         |
-  c'1                                                                        |
-  c16 c, e c b' c, e c c' c, e c d' d, g d                                          |
-  << \new Voice { \voiceOne b'1 } \new Voice { \voiceTwo a2( g2) } >>        |
-  % two measures here...
-  << \new Voice { \voiceOne a1~ | a1 } \new Voice { \voiceTwo g1 | f1 } >>   |
+  \tempo 4 = 88
+  e'8 a, d a e' a, f' a,                                                     |
+  d1                                                                         |
+  d8 g, c g d' g, e' g,                                                      |
+  c1                                                                         |
+  c8 e, b' e, c' e, d' e,                                                    |
+  <d b'>1                                                                    |
+  <c a'>1~                                                                   |
+  <c a'>1                                                                    |
 }
 
 introPianoOneLeft = \relative c''{
   a1                                                                         |
   b1                                                                         |
-  g1                                                                         |
+  g2 b2                                                                      |
   a1                                                                         |
   f1                                                                         |
-  e1                                                                         |
-  f1~                                                                        |
-  f1                                                                         |
+  a2( g2)                                                                    |
+  g1(                                                                        |
+  f1)                                                                        |
 }
 
 introPianoTwoRight = \relative c'' {
@@ -34,9 +35,8 @@ introPianoTwoRight = \relative c'' {
 }
 
 introPianoTwoLeft = \relative c'' {
-  \clef treble
-  e8^"or maybe" a, d a e' a, f' a,                                                         |
-  d1                                                                         |
+  r1                                                                         |
+  r1                                                                         |
   r1                                                                         |
   r1                                                                         |
   r1                                                                         |
@@ -45,55 +45,55 @@ introPianoTwoLeft = \relative c'' {
   r1                                                                         |
 }
 
-pianoOneRight = \relative c'' {
+pianoOneRight = \relative c''' {
   % \key g \major
 
   % I was the one who had it all
-  e2. d4                                                                     |
-  c1                                                                         |
+  r4 <c e> <c e> <c e>                                                       |
+  <c e> <c e> <c e> <b d>                                                    |
   % I was the master was my fate
-  e2 d4 e4                                                                   |
-  f1                                                                         |
+  r <c e> <c e> <c e>                                                        |
+  <a c> <a c> <a c> <a c>                                                    |
   % I never needed anybody in my life
-  f2. e4                                                                     |
-  d2 e2                                                                      |
+  r <a c> <a c> <a c>                                                        |
+  <e c'> <e c'> <e c'> <e c'>                                                |
   % I learned the truth too late
-  c2 g'4 a                                                                   |
-  << \new Voice { \voiceOne d,1 } \new Voice { \voiceTwo c2( b2) } >>        |
+  <f c'> <f c'> <f c'> <f c'>                                                |
+  <c' d> <c d> <b d> <b d>                                                   |
 
   % I'll never shake away the pain
-  e2 e4 d4                                                                   |
-  c2 e8 f d e                                                                |
+  r <c e> <c e> <c e>                                                        |
+  <c e>2 e8 f d e                                                            |
   % I'd close my eyes, and she's still there
-  e2 e4 c4                                                                   |
-  f2 f8 g a c                                                                |
+  r4 <c e> <c e> <c e>                                                       |
+  <a c>2 f8 g a c                                                            |
   % I let her steal into my melancholy heart
-  f,,4. g8 a4. a8                                                            |
-  b2 a4 g4                                                                   |
+  <a c>4 <a c> <a c> <a c>                                                   |
+  <e c'> <e c'> <e c'> <e c'>                                                |
   % It's more than I can bear                
-  e4 f g c                                                                   |
+  e4( f g c                                                                  |
   b a b c                                                                    |
 
   % ...Now I know she'll never
-  a c d e                                                                    |
+  a c d e)                                                                   |
   d2~ d8 g, a c                                                              |
   % leave me, even as she runs a-
-  d c c d f e d e                                                            |
+  d( c c d f e d e)                                                          |
   a,2~ a8 a c d                                                              |
   % -way.  She will still torment me
-  e d d e g e e g                                                            |
-  a2 gis,                                                                    |
+  e( d d e g e e g)                                                          |
+  a2 <e, gis>4 <e gis>                                                       |
   % calm me, hurt me, move me; come what
-  a2 e2                                                                      |
-  fis4. e8 d2                                                                |
+  <e a> <e a> <e a> <e a>                                                    |
+  <d fis> <d fis> <d fis> <d fis>                                            |
   % may.  Wasting in my lonely           
-  d'8 f16 e d8 c d c16 b c d e f                                             |
-  g2 f4 e                                                                    |
+  <d g> <d g> <d g> <d g>                                                    |
+  g'2 f4 e                                                                   |
   % tower, waiting by an open
   d8 e f g g e d e                                                           |
-  a,2 gis                                                                    |
+  <e, a>4 <e a> <e gis> <e gis>                                              |
   % door, I'll fool myself she'll walk right
-  c'4 a g8 f e d                                                             |
+  c''4 a g8 f e d                                                            |
   e2 g2~                                                                     |
   % in, and be with me for ever-
   g4 f bes c                                                                 |
@@ -111,14 +111,14 @@ pianoOneRight = \relative c'' {
   r4 g, f bes                                                                |
   bes' aes g f                                                               |
   % Though she's already flown so far beyond my reach,
-  c2 c,8 d ees g                                                             |
-  d8 ees g bes ees, g c d                                                    |
+  c2 c,8:16 d: ees: g:                                                       |
+  d8:16 ees: g: bes: ees,: g: c: d:                                          |
   % she's never out of sight
-  ees8 g aes g bes g f ees                                                   |
+  ees: g: aes: g: bes: g: f: ees:                                            |
   bes4\prall bes4\prall bes4\prall bes4\prall                                |
 
   % ...Now I know she'll never
-  bes4\prall bes4\prall bes4 bes4                                            |
+  bes4\prall bes4\prall bes4\prall bes4                                      |
   f'4. ees8 aes4. g8                                                         |
   % leave me, even as she fades from
   bes4 g8 aes f g ees d                                                      |
@@ -158,71 +158,71 @@ pianoOneRight = \relative c'' {
   ees4)\marcato r2.                                                          |
 }
 
-pianoOneLeft = \relative c' {
+pianoOneLeft = \relative c'' {
   % \key g \major
 
   % I was the one who had it all
-  g'1~                                                                       |
-  g1                                                                         |
+  r1                                                                         |
+  g                                                                          |
   % I was the master was my fate
-  g1~                                                                        |
-  g1                                                                         |
+  g                                                                          |
+  a                                                                          |
   % I never needed anybody in my life
-  s1                                                                         |
-  s1                                                                         |
+  a                                                                          |
+  c                                                                          |
   % I learned the truth too late
-  s1                                                                         |
-  s1                                                                         |
+  a                                                                          |
+  g                                                                          |
 
   % I'll never shake away the pain
-  e2 e2                                                                      |
-  e1                                                                         |
+  g                                                                          |
+  g                                                                          |
   % I'd close my eyes, and she's still there
-  s1                                                                         |
-  s1                                                                         |
+  g                                                                          |
+  a                                                                          |
   % I let her steal into my melancholy heart
-  s1                                                                         |
-  s1                                                                         |
+  a                                                                          |
+  c                                                                          |
   % It's more than I can bear                
-  s1                                                                         |
-  s1                                                                         |
+  a2 c                                                                       |
+  g g                                                                        |
 
   % ...Now I know she'll never
-  s1                                                                         |
-  s1                                                                         |
+  f f                                                                        |
+  f c'                                                                       |
   % leave me, even as she runs a-
-  s1                                                                         |
-  s1                                                                         |
+  b8( a a b c g f g)                                                         |
+  f2 e'                                                                      |
   % -way.  She will still torment me
-  s1                                                                         |
-  s1                                                                         |
+  c8( b b c e c c e)                                                         |
+  a,1                                                                        |
   % calm me, hurt me, move me; come what
-  s1                                                                         |
-  s1                                                                         |
+  c1                                                                         |
+  c                                                                          |
   % may.  Wasting in my lonely           
-  s1                                                                         |
-  s1                                                                         |
+  c2 b                                                                       |
+  g1                                                                         |
   % tower, waiting by an open
-  s1                                                                         |
-  s1                                                                         |
+  g                                                                          |
+  a                                                                          |
   % door, I'll fool myself she'll walk right
-  s1                                                                         |
-  s1                                                                         |
+  a                                                                          |
+  c                                                                          |
   % in, and be with me for ever-
-  s1                                                                         |
-  s1                                                                         |
+  c                                                                          |
+  c                                                                          |
   % more
-  s1                                                                         |
-  s1 \bar "||"                                                               |
+  c~                                                                         |
+  c \bar "||"                                                                |
 
   \key ees \major
 
   % I rage against the trials of love
-  s1                                                                         |
-  s1                                                                         |
+  r4 g f bes                                                                 |
+  r4 g' f f                                                                  |
   % I curse the fading of the light
-  s1                                                                         |
-  s1                                                                         |
+  r4 g, f bes                                                                |
+  bes' aes g f                                                               |
   % Though she's already flown so far beyond my reach,
   s1                                                                         |
   s1                                                                         |
@@ -268,7 +268,7 @@ pianoOneLeft = \relative c' {
   g g4 g8 g g g g                                                            |
   % --     
   g1                                                                         |
-  g1                                                                         |
+  g4\marcato r2.                                                             |
 }
 
 pianoTwoRight = \relative c {
@@ -338,7 +338,7 @@ pianoTwoRight = \relative c {
   aes1                                                                       |
   % Though she's already flown so far beyond my reach,
   r8 aes aes aes aes g4 g16 bes16                                            |
-  bes8 g4 g16 bes16 c2                                                        |
+  bes8 g4 g16 bes16 c2                                                       |
   % she's never out of sight
   r8 ees ees c bes4. ees,8                                                   |
   bes'1~                                                                     |
@@ -378,119 +378,119 @@ pianoTwoRight = \relative c {
   g2 ees                                                                     |
   % evermore
   bes' bes                                                                   |
-  ees,1~                                                                     |
+  ees,1                                                                      |
   % --     
-  ees1~                                                                      |
-  ees1~                                                                      |
+  ees1                                                                       |
+  ees1                                                                       |
   % --     
-  s1~                                                                        |
-  ees4\marcato r2. \bar "|."                                                 |
+  s1                                                                         |
+  ees'4\marcato r2. \bar "|."                                                |
 }
 
 pianoTwoLeft = \relative c, {
   % \key g \major
 
   % I was the one who had it all
-  s1                                                                         |
-  s1                                                                         |
+  c2 g'                                                                      |
+  c,2 c4 g'                                                                  |
   % I was the master was my fate
-  s1                                                                         |
-  s1                                                                         |
+  c,2 g'                                                                     |
+  c,2 f4 c                                                                   |
   % I never needed anybody in my life
-  s1                                                                         |
-  s1                                                                         |
+  a'2 a                                                                      |
+  g f4 e                                                                     |
   % I learned the truth too late
-  s1                                                                         |
-  s1                                                                         |
+  d2. d4                                                                     |
+  g1                                                                         |
 
   % I'll never shake away the pain
-  s1                                                                         |
-  s1                                                                         |
+  c,2 g'                                                                     |
+  c,2 c4 g'                                                                  |
   % I'd close my eyes, and she's still there
-  s1                                                                         |
-  s1                                                                         |
+  c,2 g'                                                                     |
+  c,2 f4 c                                                                   |
   % I let her steal into my melancholy heart
-  s1                                                                         |
-  s1                                                                         |
+  a'2 a                                                                      |
+  g f4 e                                                                     |
   % It's more than I can bear                
-  s1                                                                         |
-  s1                                                                         |
+  d2. d4                                                                     |
+  g1~                                                                        |
 
   % ...Now I know she'll never
-  s1                                                                         |
-  s1                                                                         |
+  g4 g g g                                                                   |
+  g2 f2                                                                      |
   % leave me, even as she runs a-
-  s1                                                                         |
-  s1                                                                         |
+  e1                                                                         |
+  f2 g                                                                       |
   % -way.  She will still torment me
-  s1                                                                         |
-  s1                                                                         |
+  c1                                                                         |
+  f2 e                                                                       |
   % calm me, hurt me, move me; come what
-  s1                                                                         |
-  s1                                                                         |
+  a,2 c                                                                      |
+  d d                                                                        |
   % may.  Wasting in my lonely           
-  s1                                                                         |
-  s1                                                                         |
+  g,1                                                                        |
+  g2 f                                                                       |
   % tower, waiting by an open
-  s1                                                                         |
-  s1                                                                         |
+  e d4 c                                                                     |
+  f2 e                                                                       |
   % door, I'll fool myself she'll walk right
-  s1                                                                         |
-  s1                                                                         |
+  a1                                                                         |
+  a2 g                                                                       |
   % in, and be with me for ever-
-  s1                                                                         |
-  s1                                                                         |
+  g1                                                                         |
+  g1                                                                         |
   % more
-  s1                                                                         |
-  s1 \bar "||"                                                               |
+  c1~                                                                        |
+  c2~ c8 d-. c-. d-. \bar "||"                                               |
 
   \key ees \major
 
   % I rage against the trials of love
-  s1                                                                         |
-  s1                                                                         |
+  ees2 bes                                                                   |
+  ees, bes'                                                                  |
   % I curse the fading of the light
-  s1                                                                         |
-  s1                                                                         |
+  ees, bes'                                                                  |
+  ees, aes                                                                   |
   % Though she's already flown so far beyond my reach,
-  s1                                                                         |
-  s1                                                                         |
+  c aes                                                                      |
+  g aes4 g                                                                   |
   % she's never out of sight
-  s1                                                                         |
-  s1                                                                         |
+  f2 d'4 c                                                                   |
+  bes c d ees                                                                |
 
   % ...Now I know she'll never
-  s1                                                                         |
-  s1                                                                         |
+  f g aes2                                                                   |
+  aes g                                                                      |
   % leave me, even as she fades from
-  s1                                                                         |
-  s1                                                                         |
+  ees d                                                                      |
+  c d                                                                        |
   % view.  She will still inspire me,
-  s1                                                                         |
-  s1                                                                         |
+  ees d                                                                      |
+  c g'                                                                       |
   % be a part of everything I
-  s1                                                                         |
-  s1                                                                         |
+  aes f                                                                      |
+  d f                                                                        |
   % do.  Wasting in my lonely
-  s1                                                                         |
-  s1                                                                         |
+  bes,1                                                                      |
+  c2 g'                                                                      |
   % tower, waiting by an open
-  s1                                                                         |
-  s1                                                                         |
+  ees4 d c bes                                                               |
+  aes2 bes                                                                   |
   % door, I'll fool myself she'll walk right
-  s1                                                                         |
-  s1                                                                         |
+  c1                                                                         |
+  ees2 d                                                                     |
   % in, and as the long long nights be-
-  s1                                                                         |
-  s1                                                                         |
+  c b                                                                        |
+  bes! c4 d                                                                  |
   % -gin, I'll think of all that might have
-  s1                                                                         |
-  s1                                                                         |
+  ees2 d                                                                     |
+  c bes                                                                      |
   % been, waiting here for
-  s1                                                                         |
-  s1                                                                         |
+  ees d                                                                      |
+  c bes                                                                      |
   % evermore
-  s1                                                                         |
+  aes bes                                                                    |
   ees1                                                                       |
   % --     
   ees1                                                                       |
@@ -555,13 +555,10 @@ text = \lyricmode {
 
 \score {
   <<
-    %\new Voice = voice \pianoTwoRight
-    %\new Lyrics \lyricsto voice \text
     \new PianoStaff <<
       \set PianoStaff.instrumentName = "Piano 1"
-      %\new Staff = "pianoOneRight" { \introPianoOneRight \pianoOneRight }
       \new Staff = "pianoOneRight" {
-        \clef treble
+        \clef "treble^8"
         \introPianoOneRight
         \pianoOneRight
       }
@@ -574,9 +571,9 @@ text = \lyricmode {
     \new PianoStaff <<
       \set PianoStaff.instrumentName = "Piano 2"
       \new Staff = pianoTwoRight {
+        \clef bass
+        \introPianoTwoRight
         \new Voice = voice {
-          \clef bass
-          \introPianoTwoRight
           \pianoTwoRight
         }
       }
@@ -584,7 +581,6 @@ text = \lyricmode {
       \new Staff = pianoTwoLeft {
         \clef bass
         \introPianoTwoLeft
-        \clef bass %TODO: remove when we are done with demo
         \pianoTwoLeft
       }
     >>
