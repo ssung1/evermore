@@ -146,9 +146,9 @@ pianoOneRight = \relative c''' {
   g,2 bes                                                                    |
   % been, waiting here for
   g4 bes d ees                                                               |
-  r <ees g bes> r <ees g bes>                                                |
+  r <g, bes> r <g bes>                                                       |
   % evermore
-  r <d f bes> r <d f bes>                                                    |
+  r <f bes> r <f bes>                                                        |
   r8 g4 g8 g f f g                                                           |
   % --     
   r8 bes4 bes8 bes aes aes bes                                               |
