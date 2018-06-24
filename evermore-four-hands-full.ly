@@ -133,7 +133,7 @@ pianoOneRight = \relative c''' {
   bes4 bes bes bes                                                           |
   bes4 bes aes aes                                                           |
   % tower, waiting by an open
-  g1                                                                         |
+  <ees g>4 <ees g> <ees g> <ees g>                                           |
   g2 aes4 g                                                                  |
   % door, I'll fool myself she'll walk right
   ees8 d f ees g f g aes                                                     |
@@ -238,27 +238,27 @@ pianoOneLeft = \relative c'' {
   f1                                                                         |
   % view.  She will still inspire me,
   ees1                                                                       |
-  s1                                                                         |
+  g2 b4. b8                                                                  |
   % be a part of everything I
-  s1                                                                         |
-  s1                                                                         |
+  c4. c8 d4. d8                                                              |
+  ees4. ees8 f4. f8                                                          |
   % do.  Wasting in my lonely
-  s1                                                                         |
-  s1                                                                         |
+  bes,1                                                                      |
+  g1                                                                         |
   % tower, waiting by an open
-  s1                                                                         |
-  s1                                                                         |
+  ees1                                                                       |
+  ees1                                                                       |
   % door, I'll fool myself she'll walk right
-  s1                                                                         |
-  s1                                                                         |
+  c1                                                                         |
+  bes1                                                                       |
   % in, and as the long long nights be-
-  s1                                                                         |
-  s1                                                                         |
+  g1                                                                         |
+  g1                                                                         |
   % -gin, I'll think of all that might have
-  s1                                                                         |
-  s1                                                                         |
+  g1                                                                         |
+  g1                                                                         |
   % been, waiting here for
-  s1                                                                         |
+  g1                                                                         |
   ees2 ees                                                                   |
   % evermore
   d d                                                                        |
@@ -384,7 +384,7 @@ pianoTwoRight = \relative c {
   ees1                                                                       |
   % --     
   s1                                                                         |
-  ees'4\marcato r2. \bar "|."                                                |
+  ees4\marcato r2. \bar "|."                                                 |
 }
 
 pianoTwoLeft = \relative c, {
@@ -491,7 +491,7 @@ pianoTwoLeft = \relative c, {
   c bes                                                                      |
   % evermore
   aes bes                                                                    |
-  ees1                                                                       |
+  ees,1                                                                      |
   % --     
   ees1                                                                       |
   ees1                                                                       |
