@@ -88,7 +88,7 @@ pianoOneRight = \relative c''' {
   <d fis> <d fis> <d fis> <d fis>                                            |
   % may.  Wasting in my lonely           
   <d g> <d g> <d g> <d g>                                                    |
-  g'2 f4 e                                                                   |
+  g'2 f                                                                      |
   % tower, waiting by an open
   d8 e f g g e d e                                                           |
   <e, a>4 <e a> <e gis> <e gis>                                              |
@@ -100,7 +100,7 @@ pianoOneRight = \relative c''' {
   g c, c b                                                                   |
   % more
   e d e f                                                                    |
-  d e g2 \bar "||"                                                           |
+  d e f2 \bar "||"                                                           |
 
   \key ees \major
 
@@ -111,10 +111,10 @@ pianoOneRight = \relative c''' {
   r4 g, f bes                                                                |
   bes' aes g f                                                               |
   % Though she's already flown so far beyond my reach,
-  c2 c,8:16 d: ees: g:                                                       |
-  d8:16 ees: g: bes: ees,: g: c: d:                                          |
+  c2 c,8 d ees g                                                             |
+  d8 ees g bes ees, g c d                                                    |
   % she's never out of sight
-  ees: g: aes: g: bes: g: f: ees:                                            |
+  ees g aes g bes g f ees                                                    |
   bes4\prall bes4\prall bes4\prall bes4\prall                                |
 
   % ...Now I know she'll never
@@ -441,8 +441,8 @@ pianoTwoLeft = \relative c, {
   g1                                                                         |
   g1                                                                         |
   % more
-  c1~                                                                        |
-  c2~ c8 d-. c-. d-. \bar "||"                                               |
+  c2. d4                                                                     |
+  c2. <bes d>4 \bar "||"                                                     |
 
   \key ees \major
 
