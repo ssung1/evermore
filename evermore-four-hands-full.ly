@@ -192,7 +192,7 @@ pianoOneLeft = \relative c'' {
   f c'                                                                       |
   % leave me, even as she runs a-
   b8( a a b c g f g)                                                         |
-  f2 e'                                                                      |
+  f2 c'                                                                      |
   % -way.  She will still torment me
   c8( b b c e c c e)                                                         |
   a,1                                                                        |
@@ -232,22 +232,22 @@ pianoOneLeft = \relative c'' {
 
   % ...Now I know she'll never
   bes'8 bes4 bes4 bes4 bes8                                                  |
-  bes1                                                                       |
+  bes1~                                                                      |
   % leave me, even as she fades from
   bes2 g2                                                                    |
   f1                                                                         |
   % view.  She will still inspire me,
   ees1                                                                       |
-  g2 b4. b8                                                                  |
+  c2 b'4. b8                                                                 |
   % be a part of everything I
   c4. c8 d4. d8                                                              |
-  ees4. ees8 f4. f8                                                          |
+  ees4. ees8 ees4. f8                                                        |
   % do.  Wasting in my lonely
   bes,1                                                                      |
-  g1                                                                         |
+  f1                                                                         |
   % tower, waiting by an open
   ees1                                                                       |
-  ees1                                                                       |
+  c1                                                                         |
   % door, I'll fool myself she'll walk right
   c1                                                                         |
   bes1                                                                       |
@@ -267,8 +267,8 @@ pianoOneLeft = \relative c'' {
   c c4 c8 c d c bes                                                          |
   g g4 g8 g g g g                                                            |
   % --     
-  g1                                                                         |
-  g4\marcato r2.                                                             |
+  g1(                                                                        |
+  g'4\marcato) r2.                                                           |
 }
 
 pianoTwoRight = \relative c {
@@ -326,7 +326,7 @@ pianoTwoRight = \relative c {
   r8 g g g g c, c b                                                          |
   % more
   c1~                                                                        |
-  c1 \bar "||"                                                               |
+  c2. r4 \bar "||"                                                           |
 
   \key ees \major
 
@@ -441,8 +441,8 @@ pianoTwoLeft = \relative c, {
   g1                                                                         |
   g1                                                                         |
   % more
-  c2. d4                                                                     |
-  c2. <bes d>4 \bar "||"                                                     |
+  c,1(                                                                       |
+  c2.) <bes' d>4 \bar "||"                                                   |
 
   \key ees \major
 
@@ -476,7 +476,7 @@ pianoTwoLeft = \relative c, {
   c2 g'                                                                      |
   % tower, waiting by an open
   ees4 d c bes                                                               |
-  aes2 bes                                                                   |
+  aes2 b2                                                                    |
   % door, I'll fool myself she'll walk right
   c1                                                                         |
   ees2 d                                                                     |
@@ -490,8 +490,8 @@ pianoTwoLeft = \relative c, {
   ees d                                                                      |
   c bes                                                                      |
   % evermore
-  aes bes                                                                    |
-  ees,1                                                                      |
+  aes f                                                                      |
+  ees1                                                                       |
   % --     
   ees1                                                                       |
   ees1                                                                       |
