@@ -119,7 +119,7 @@ pianoOneRight = \relative c''' {
 
   % ...Now I know she'll never
   bes8 bes4 bes4 bes4 bes8                                                   |
-  bes1                                                                       |
+  bes1~                                                                      |
   % leave me, even as she fades from
   bes4 g8 aes f g ees d                                                      |
   f4. g8 aes4 c                                                              |
@@ -128,13 +128,13 @@ pianoOneRight = \relative c''' {
   c4. c,8 d4. d8                                                             |
   % be a part of everything I
   ees4. ees8 f4. f8                                                          |
-  g4. g8 a4. a8                                                              |
+  g4. g8 g4. a8                                                              |
   % do.  Wasting in my lonely
   bes4 bes bes bes                                                           |
   bes4 bes aes aes                                                           |
   % tower, waiting by an open
   <ees g>4 <ees g> <ees g> <ees g>                                           |
-  g2 aes4 g                                                                  |
+  g2 d2                                                                      |
   % door, I'll fool myself she'll walk right
   ees8 d f ees g f g aes                                                     |
   g2 g8 aes f g                                                              |
@@ -146,16 +146,16 @@ pianoOneRight = \relative c''' {
   g,2 bes                                                                    |
   % been, waiting here for
   g4 bes d ees                                                               |
-  r <g, bes> r <g bes>                                                       |
+  r <ees, g bes> r <ees g bes>                                               |
   % evermore
-  r <f bes> r <f bes>                                                        |
+  r <d f bes> r <d f bes>                                                    |
   r8 g4 g8 g f f g                                                           |
   % --     
   r8 bes4 bes8 bes aes aes bes                                               |
   r8 ees4 ees8 ees bes bes aes                                               |
   % --     
-  bes1(                                                                      |
-  ees4)\marcato r2.                                                          |
+  <ees g bes>1\arpeggio(                                                     |
+  ees'4)\marcato r2.                                                         |
 }
 
 pianoOneLeft = \relative c'' {
@@ -504,6 +504,7 @@ pianoTwoLeft = \relative c, {
 }
 
 text = \lyricmode {
+  \set fontSize = #-2
   I was the one who had it | all                                             |
   I was the mas -- ter of my | fate                                          |
   I ne -- ver need -- ed a -- ny | bo -- dy in my life                       |
