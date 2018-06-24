@@ -115,25 +115,25 @@ pianoOneRight = \relative c''' {
   d8 ees g bes ees, g c d                                                    |
   % she's never out of sight
   ees g aes g bes g f ees                                                    |
-  bes4\prall bes4\prall bes4\prall bes4\prall                                |
+  bes8 bes4 bes8 bes8 bes4 bes8                                              |
 
   % ...Now I know she'll never
-  bes4\prall bes4\prall bes4\prall bes4                                      |
-  f'4. ees8 aes4. g8                                                         |
+  bes8 bes4 bes4 bes4 bes8                                                   |
+  bes1                                                                       |
   % leave me, even as she fades from
-  bes4 g8 aes f g ees d                                                      |
+  bes'4 g8 aes f g ees d                                                     |
   f4. g8 aes4 c                                                              |
   % view.  She will still inspire me,
   bes4. g8 g aes aes bes                                                     |
-  c4 g f16 ees d c b4                                                        |
+  c4. c,8 d4. d8                                                             |
   % be a part of everything I
-  f'4 c8 bes aes g f ees                                                     |
-  a bes c ees f g a c                                                        |
+  ees4. ees8 f4. f8                                                          |
+  g4. g8 a4. a8                                                              |
   % do.  Wasting in my lonely
-  ees,8 d d ees f ees16 d ees f g aes                                        |
-  bes4 f16 g aes bes c4. g8                                                  |
+  bes4 bes bes bes                                                           |
+  bes4 bes aes aes                                                           |
   % tower, waiting by an open
-  bes1                                                                       |
+  g1                                                                         |
   g2 aes4 g                                                                  |
   % door, I'll fool myself she'll walk right
   ees8 d f ees g f g aes                                                     |
