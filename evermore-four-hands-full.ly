@@ -115,13 +115,13 @@ pianoOneRight = \relative c''' {
   d8 ees g bes ees, g c d                                                    |
   % she's never out of sight
   ees g aes g bes g f ees                                                    |
-  bes8 bes4 bes8 bes8 bes4 bes8                                              |
+  bes'8 bes4 bes8 bes8 bes4 bes8                                             |
 
   % ...Now I know she'll never
   bes8 bes4 bes4 bes4 bes8                                                   |
   bes1                                                                       |
   % leave me, even as she fades from
-  bes'4 g8 aes f g ees d                                                     |
+  bes4 g8 aes f g ees d                                                      |
   f4. g8 aes4 c                                                              |
   % view.  She will still inspire me,
   bes4. g8 g aes aes bes                                                     |
@@ -224,20 +224,20 @@ pianoOneLeft = \relative c'' {
   r4 g, f bes                                                                |
   bes' aes g f                                                               |
   % Though she's already flown so far beyond my reach,
-  s1                                                                         |
-  s1                                                                         |
+  \repeat percent 2 { aes,8 aes aes aes }                                    |
+  \repeat percent 2 { aes8 aes aes aes }                                     |
   % she's never out of sight
-  s1                                                                         |
-  s1                                                                         |
+  g8 g g g f f f f                                                           |
+  bes8 bes4 bes8 bes8 bes4 bes8                                              |
 
   % ...Now I know she'll never
-  s1                                                                         |
-  s1                                                                         |
+  bes'8 bes4 bes4 bes4 bes8                                                  |
+  bes1                                                                       |
   % leave me, even as she fades from
-  s1                                                                         |
-  s1                                                                         |
+  bes2 g2                                                                    |
+  f1                                                                         |
   % view.  She will still inspire me,
-  s1                                                                         |
+  ees1                                                                       |
   s1                                                                         |
   % be a part of everything I
   s1                                                                         |
