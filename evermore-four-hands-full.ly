@@ -155,7 +155,7 @@ pianoOneRight = \relative c''' {
   r8 ees4 ees8 ees bes bes aes                                               |
   % --     
   <ees g bes>1\arpeggio(                                                     |
-  ees'4)\marcato r2.                                                         |
+  ees'4)\marcato r2. \bar "|."                                               |
 }
 
 pianoOneLeft = \relative c'' {
@@ -268,7 +268,7 @@ pianoOneLeft = \relative c'' {
   g g4 g8 g g g g                                                            |
   % --     
   g1(                                                                        |
-  g'4\marcato) r2.                                                           |
+  g'4\marcato) r2. \bar "|."                                                 |
 }
 
 pianoTwoRight = \relative c {
