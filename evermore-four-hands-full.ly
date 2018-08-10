@@ -1,7 +1,7 @@
 \version "2.14.1"
 
 introPianoOneRight = \relative c'' {
-  \tempo 4 = 88
+  \tempo 4 = 66
   e'8 a, d a e' a, f' a,                                                     |
   d1                                                                         |
   d8 g, c g d' g, e' g,                                                      |
@@ -12,7 +12,7 @@ introPianoOneRight = \relative c'' {
   <c a'>1                                                                    |
 }
 
-introPianoOneLeft = \relative c''{
+introPianoOneLeft = \relative c'' {
   a1                                                                         |
   b1                                                                         |
   g2 b2                                                                      |
@@ -189,12 +189,12 @@ pianoOneLeft = \relative c'' {
 
   % ...Now I know she'll never
   f f                                                                        |
-  f c'                                                                       |
+  f4 r2.                                                                     |
   % leave me, even as she runs a-
   b8( a a b c g f g)                                                         |
-  f2 c'                                                                      |
+  f4 r2.                                                                     |
   % -way.  She will still torment me
-  c8( b b c e c c e)                                                         |
+  c'8( b b c e c c e)                                                        |
   a,1                                                                        |
   % calm me, hurt me, move me; come what
   c1                                                                         |
@@ -275,13 +275,13 @@ pianoTwoRight = \relative c {
   % \key g \major
 
   % I was the one who had it all
-  r8 e e e e d4 d16 e16                                                      |
+  r8 e-3 e e e d4 d16 e16                                                    |
   c1                                                                         |
   % I was the master was my fate
   r8 e e e e d4 d16 e16                                                      |
   f1                                                                         |
   % I never needed anybody in my life
-  r8 f f f f e e g                                                           |
+  r8 f-2 f f f e e g                                                         |
   g e4 e16 g16 a2                                                            |
   % I learned the truth too late
   r8 c c b g4. c,8                                                           |
@@ -473,7 +473,7 @@ pianoTwoLeft = \relative c, {
   d f                                                                        |
   % do.  Wasting in my lonely
   bes,1                                                                      |
-  c2 g'                                                                      |
+  c2 d                                                                       |
   % tower, waiting by an open
   ees4 d c bes                                                               |
   aes2 b2                                                                    |
